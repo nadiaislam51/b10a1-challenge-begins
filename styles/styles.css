@@ -26,8 +26,32 @@
   margin-bottom: 24px;
 }
 
+.section-title{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 24px;
+}
 
+.title1{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 16px;
+}
 
+.title2{
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 8px;
+}
 .para1{
   color: rgb(13, 19, 33);
   font-size: 16px;
@@ -38,6 +62,39 @@
   margin-bottom: 32px;
 }
 
+.para2{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.btn{
+  color: rgb(13, 19, 33);
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 20px;
+  border: 1px solid rgb(13, 19, 33, 0.7);
+}
+
+.learn-more{
+  color: rgb(13, 19, 33);
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19px;
+  text-align: left;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+ 
 
 
 
@@ -53,7 +110,7 @@ header{
 
 .header{
   max-height: 652px;
-  background: url(../images/hero-bg.png);
+  background: url(../assets/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +141,37 @@ header{
   color: #fff;
 }
 
+/* web dev styles starts */
 
+.web-dev{
+  padding: 80px 97px;
+}
+
+.card1 , .card3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card2{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card1 .card-content, .card3 .card-content{
+  max-width: 468px;
+}
+
+.card2 .card-content {
+  max-width: 530px;
+}
 
 
 
