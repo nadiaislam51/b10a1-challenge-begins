@@ -173,6 +173,19 @@ header{
   max-width: 530px;
 }
 
+/* my inspiration section starts */
+.my-inspiration{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px auto;
+}
+
+.iframe{
+  padding: 32px;
+}
+/* my inspiration section ends */
+
 
 
 
