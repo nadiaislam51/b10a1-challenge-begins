@@ -2,67 +2,94 @@
 /* fonts style ends */
 /* global styles starts here */
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-font-family: "Azeret Mono";
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
 }
 
-.hero-container{
-    max-width: 1440px;
-    margin: 0 auto;
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-/* header styles start here */
+.bg-color{
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.heading{
+  color: rgb(13, 19, 33);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+
+.para1{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  max-width: 852px;
+  margin-bottom: 32px;
+}
+
+
+
+
+/* header style starts */
+
 header{
-    max-height: 652px;
-    background:url(../assets/hero.png);
-    background-position: center;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 38px auto;
+}
+
+.header{
+  max-height: 652px;
+  background: url(../images/hero-bg.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 130px auto;
+  margin: 0px auto 130px;
 }
 
-.heading-content{
-    color: rgb(13, 19, 33);
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-text-align: center;
-}
-.p-section{
-    color: rgb(13, 19, 33);
-    /* font-family: Azeret Mono; */
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
+.header .hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-header .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .content img{
-    width: 173.03px;
-    margin: 26px auto 43.1px;
-  }
-  
-  .content a{
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    padding: 21px 24px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    margin-top: 32px;
-    margin-bottom: 44px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #fff;
-  }
-  /* header styles end here */
+.hero img{
+  width: 173.03px;
+  margin: 26px auto 43.1px;
+}
+.hero a{
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 44px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
